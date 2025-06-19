@@ -1,127 +1,127 @@
-# vibepm - Vibe Product Management
+# vibepm_ru - Vibe Product Management
 
 PRD Template Example:
 
 ```markdown
-# Product Requirements Document: [Project Name]
+# Документ с требованиями к продукту (PRD): [Название проекта]
 
-## 1. Project Overview
+## 1. Обзор проекта
 
-- Clear, concise statement of the project's purpose
-- Target users and their primary needs
-- Key business objectives and success metrics
+- Четкое и краткое описание цели проекта
+- Целевая аудитория и её основные потребности
+- Ключевые бизнес-цели и метрики успеха
 
-### 1.1 Purpose
+### 1.1 Цель
 
-[One-paragraph description of what this project is and why it matters]
+[Один абзац, описывающий, что это за проект и почему он важен]
 
-### 1.2 Target Users
+### 1.2 Целевая аудитория
 
-- Primary: [Description of main user persona]
-- Secondary: [Description of secondary user personas]
+- Основная: [Описание основной пользовательской персоны]
+- Вспомогательная: [Описание дополнительных пользовательских персон]
 
-### 1.3 Business Objectives
+### 1.3 Бизнес-цели
 
-1. [Objective 1]
-2. [Objective 2]
-3. [Objective 3]
+1. [Цель 1]
+2. [Цель 2]
+3. [Цель 3]
 
-### 1.4 Success Metrics
+### 1.4 Метрики успеха
 
-- [Metric 1]: [Target value]
-- [Metric 2]: [Target value]
+- [Метрика 1]: [Целевое значение]
+- [Метрика 2]: [Целевое значение]
 
-## 2. Functional Requirements
+## 2. Функциональные требования
 
-- Detailed feature descriptions organized by priority
-- User stories in a consistent format ("As a [user], I want to [action] so that [benefit]")
-- Acceptance criteria for each feature
+- Подробное описание функций, организованное по приоритетам
+- Пользовательские истории в едином формате («Как [тип пользователя], я хочу [действие], чтобы [результат]»)
+- Критерии приёмки для каждой функции
 
-### 2.1 Core Features
+### 2.1 Основные функции
 
-#### 2.1.1 [Feature Name] - PRIORITY: HIGH
+#### 2.1.1 [Название функции] — ПРИОРИТЕТ: ВЫСОКИЙ
 
-**Description**: [Clear description of what this feature does]
+**Описание**: [Четкое описание функциональности]
 
-**User Stories**:
-- As a [user type], I want to [action] so that [benefit].
-- As a [user type], I want to [action] so that [benefit].
+**Пользовательские истории**:
+- Как [тип пользователя], я хочу [действие], чтобы [результат].
+- Как [тип пользователя], я хочу [действие], чтобы [результат].
 
-**Acceptance Criteria**:
+**Критерии приёмки**:
 
-- [ ] [Criterion 1]
-- [ ] [Criterion 2]
-- [ ] [Criterion 3]
+- [ ] [Критерий 1]
+- [ ] [Критерий 2]
+- [ ] [Критерий 3]
 
-#### 2.1.2 [Feature Name] - PRIORITY: MEDIUM
-
-...
-
-### 2.2 Secondary Features
+#### 2.1.2 [Название функции] — ПРИОРИТЕТ: СРЕДНИЙ
 
 ...
 
-## 3. Technical Requirements
+### 2.2 Второстепенные функции
 
-- Architecture preferences and constraints
-- API integrations needed
-- Performance requirements
-- Security and compliance needs
+...
 
-### 3.1 Architecture
+## 3. Технические требования
 
-- [High-level architecture description]
-- [Diagram or reference to architectural document]
+- Предпочтения и ограничения по архитектуре
+- Необходимые интеграции с API
+- Требования к производительности
+- Безопасность и соответствие стандартам
 
-### 3.2 API Integrations
+### 3.1 Архитектура
 
-1. [API Name]
-   - Endpoints needed: [list]
-   - Authentication method: [method]
-   - Rate limits: [if applicable]
+- [Описание архитектуры на высоком уровне]
+- [Диаграмма или ссылка на архитектурный документ]
 
-### 3.3 Performance Requirements
+### 3.2 Интеграции с API
 
-- Page load time: [target]
-- API response time: [target]
-- Concurrent users: [target]
+1. [Название API]
+   - Необходимые эндпоинты: [список]
+   - Метод аутентификации: [метод]
+   - Ограничения по частоте: [если применимо]
 
-### 3.4 Security & Compliance
+### 3.3 Требования к производительности
 
-- [Security requirement 1]
-- [Security requirement 2]
-- Compliance with: [standards/regulations]
+- Время загрузки страниц: [цель]
+- Время отклика API: [цель]
+- Количество одновременных пользователей: [цель]
 
-## 4. UI/UX Requirements
+### 3.4 Безопасность и соответствие
 
-- User flow diagrams
-- Wireframes or mockups (references to design files)
-- Design system or styling guidelines
+- [Требование по безопасности 1]
+- [Требование по безопасности 2]
+- Соответствие стандартам: [список нормативов]
 
-### 4.1 User Flows
+## 4. Требования к UI/UX
 
-[Description or reference to user flow diagrams]
+- Диаграммы пользовательских потоков
+- Вайрфреймы или мокапы (ссылки на дизайн-файлы)
+- Дизайн-система или стилистические рекомендации
 
-### 4.2 Wireframes
+### 4.1 Пользовательские потоки
 
-[References to wireframes or mockups]
+[Описание или ссылка на диаграммы пользовательских потоков]
 
-### 4.3 Design System
+### 4.2 Вайрфреймы
 
-- Color palette: [colors]
-- Typography: [fonts]
-- Component library: [if applicable]
+[Ссылки на вайрфреймы или мокапы]
 
-## 5. Data Requirements
+### 4.3 Дизайн-система
 
-- Data models and relationships
-- Storage requirements
-- Data processing workflows
+- Цветовая палитра: [цвета]
+- Шрифты: [шрифты]
+- Библиотека компонентов: [если применимо]
 
-### 5.1 Data Models
+## 5. Требования к данным
+
+- Модели данных и их взаимосвязи
+- Требования к хранению данных
+- Потоки обработки данных
+
+### 5.1 Модели данных
 
 ```javascript
-// Example User model
+// Пример модели пользователя
 {
   id: string,
   name: string,
@@ -130,55 +130,57 @@ PRD Template Example:
   createdAt: timestamp
 }
 
-### 5.2 Database Requirements
+### 5.2 Требования к базе данных
 
-* Type: [SQL/NoSQL/etc.]
-* Estimated size: [initial and growth projections]
-* Backup requirements: [frequency and retention]
+* Тип: \[SQL/NoSQL и т.д.]
+* Оценочный объём: \[начальный объём и прогноз роста]
+* Резервное копирование: \[частота и срок хранения]
 
-### 5.3 Data Processing Workflows
+### 5.3 Потоки обработки данных
 
-* [Description of any ETL processes]
-* [Description of data analytics requirements]
+* \[Описание процессов ETL]
+* \[Описание требований к аналитике данных]
 
-## 6. Timeline and Milestones
+## 6. Таймлайн и ключевые этапы
 
-- Development phases
-- Dependencies between components
+* Этапы разработки
+* Зависимости между компонентами
 
-### 6.1 Development Phases
+### 6.1 Этапы разработки
 
-1. **Phase 1** (Weeks 1-3)
-   * [Feature 1]
-   * [Feature 2]
-2. **Phase 2** (Weeks 4-6)
-   * [Feature 3]
-   * [Feature 4]
+1. **Фаза 1** (Недели 1–3)
 
-### 6.2 Dependencies between components
+   * \[Функция 1]
+   * \[Функция 2]
+2. **Фаза 2** (Недели 4–6)
 
-* [Feature A] must be completed before [Feature B]
-* [External dependency] is required for [Feature C]
+   * \[Функция 3]
+   * \[Функция 4]
+
+### 6.2 Зависимости между компонентами
+
+* \[Функция A] должна быть завершена до \[Функции B]
+* \[Внешняя зависимость] требуется для \[Функции C]
 
 ---
 
-## 7. Implementation Notes for AI Tools
+## 7. Заметки по реализации с помощью ИИ-инструментов
 
-### 7.1 Recommended Technologies
+### 7.1 Рекомендуемые технологии
 
-* Frontend: [frameworks/libraries]
-* Backend: [frameworks/libraries]
-* Testing: [frameworks/approaches]
+* Frontend: \[фреймворки/библиотеки]
+* Backend: \[фреймворки/библиотеки]
+* Тестирование: \[фреймворки/подходы]
 
-### 7.2 Code Organization
+### 7.2 Организация кода
 
-* [Preferred patterns]
-* [Module organization]
-* [Naming conventions]
+* \[Предпочитаемые шаблоны]
+* \[Организация модулей]
+* \[Соглашения по наименованию]
 
-### 7.3 Testing Strategy
+### 7.3 Стратегия тестирования
 
-* Unit test coverage target: [percentage]
-* Integration testing approach: [description]
-* End-to-end testing requirements: [description]
+* Целевой охват unit-тестами: \[процент]
+* Подход к интеграционному тестированию: \[описание]
+* Требования к end-to-end тестам: \[описание]
 ```
