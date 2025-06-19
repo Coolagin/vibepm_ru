@@ -1,72 +1,72 @@
-# Creating the Perfect PRD for AI-Assisted Development
+# Создание идеального PRD для разработки с поддержкой ИИ
 
-To create an effective Product Requirements Document (PRD) that works well with AI coding assistants like Cursor.ai, you'll want to structure it to be both comprehensive and precise. Here's how to create the ideal PRD:
+Чтобы создать эффективный документ с требованиями к продукту (PRD), который хорошо работает с ИИ-помощниками для программирования, такими как Cursor.ai, его нужно структурировать так, чтобы он был одновременно полным и точным. Вот как создать идеальный PRD:
 
-## Key Elements to Include
+## Ключевые элементы, которые следует включить
 
-### 1. Project Overview
+### 1. Обзор проекта
 
-- Clear, concise statement of the project's purpose
-- Target users and their primary needs
-- Key business objectives and success metrics
+- Четкое и краткое описание цели проекта
+- Целевая аудитория и её основные потребности
+- Ключевые бизнес-цели и метрики успеха
 
-### 2. Functional Requirements
+### 2. Функциональные требования
 
-- Detailed feature descriptions organized by priority
-- User stories in a consistent format ("As a [user], I want to [action] so that [benefit]")
-- Acceptance criteria for each feature
+- Подробное описание функций, организованных по приоритету
+- Пользовательские истории в едином формате («Как [пользователь], я хочу [действие], чтобы [выгода]»)
+- Критерии приёмки для каждой функции
 
-### 3. Technical Requirements
+### 3. Технические требования
 
-- Architecture preferences and constraints
-- API integrations needed
-- Performance requirements
-- Security and compliance needs
+- Предпочтительная архитектура и ограничения
+- Необходимые интеграции с API
+- Требования к производительности
+- Потребности в безопасности и соблюдении стандартов
 
-### 4. UI/UX Requirements
+### 4. Требования к UI/UX
 
-- User flow diagrams
-- Wireframes or mockups (references to design files)
-- Design system or styling guidelines
+- Диаграммы пользовательских потоков
+- Вайрфреймы или мокапы (ссылки на дизайн-файлы)
+- Дизайн-система или стилистические рекомендации
 
-### 5. Data Requirements
+### 5. Требования к данным
 
-- Data models and relationships
-- Storage requirements
-- Data processing workflows
+- Модели данных и их взаимосвязи
+- Требования к хранению данных
+- Потоки обработки данных
 
-### 6. Timeline and Milestones
+### 6. Таймлайн и ключевые вехи
 
-- Development phases
-- Dependencies between components
+- Этапы разработки
+- Зависимости между компонентами
 
-## Best Practices for AI-Assisted Implementation
+## Лучшие практики для реализации с поддержкой ИИ
 
-### 1. Be precise and unambiguous
+### 1. Будьте точны и однозначны
 
-- Define terms clearly
-- Avoid vague language like "user-friendly" without specific metrics
-- Use numbered requirements for easy reference
+- Четко определяйте термины
+- Избегайте расплывчатых формулировок вроде «удобный для пользователя» без конкретных метрик
+- Используйте нумерацию требований для удобства ссылок
 
-### 2. Provide context, not just requirements
+### 2. Предоставляйте контекст, а не только требования
 
-- Explain the "why" behind features
-- Include examples where possible
-- Reference similar existing products or components
+- Объясняйте, зачем нужна каждая функция
+- Включайте примеры, если возможно
+- Ссылайтесь на аналогичные существующие продукты или компоненты
 
-### 3. Structure for machine readability
+### 3. Структурируйте для машинной читаемости
 
-- Use consistent formatting and section headers
-- Break complex requirements into atomic parts
-- Use bulleted lists for clearer parsing
+- Используйте единообразное форматирование и заголовки разделов
+- Разбивайте сложные требования на атомарные части
+- Используйте маркированные списки для лучшего восприятия
 
-### 4. Create implementation hints
+### 4. Добавляйте подсказки к реализации
 
-- Suggest libraries or frameworks that might be useful
-- Note any code patterns or architecture preferences
-- Mention testing approaches early
+- Предлагайте библиотеки или фреймворки, которые могут быть полезны
+- Упоминайте предпочтительные шаблоны кода или архитектуру
+- Заблаговременно обозначайте подходы к тестированию
 
-### 5. Prioritize clearly
+### 5. Четко расставляйте приоритеты
 
-- Mark must-have vs. nice-to-have features
-- Provide dependency information (X must be built before Y)
+- Отмечайте обязательные и желательные функции
+- Указывайте зависимости (X должен быть реализован до Y)
